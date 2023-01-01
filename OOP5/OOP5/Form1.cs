@@ -18,19 +18,16 @@ namespace OOP5
             this.CenterToScreen();
             label2.Visible = false;
             label3.Visible = false;
+            label5.Visible = false;
             textBox1.Visible = false;
             numericUpDown1.Visible = false;
             button1.Enabled = false;
+            dateTimePicker1.MaxDate = DateTime.Today;
         }
 
         Zamestnanec zamestnanec;
         Vedouci vedouci;
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            
-            label1.Text = zamestnanec.ToString();
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -53,6 +50,7 @@ namespace OOP5
         {
             label2.Visible = false;
             label3.Visible = false;
+            label5.Visible = false;
             textBox1.Visible = false;
             numericUpDown1.Visible = false;
         }
@@ -61,6 +59,7 @@ namespace OOP5
         {
             label2.Visible = true;
             label3.Visible = true;
+            label5.Visible = true;
             textBox1.Visible = true;
             numericUpDown1.Visible = true;
         }
@@ -70,10 +69,12 @@ namespace OOP5
             if(radioButton1.Checked)
             {
                 zamestnanec = new Zamestnanec(textBox2.Text, textBox3.Text, dateTimePicker1.Value, (int)numericUpDown4.Value);
+                label1.Text = zamestnanec.ToString();
             }
             if(radioButton2.Checked)
             {
                 vedouci = new Vedouci((int)numericUpDown1.Value,textBox1.Text, textBox2.Text, textBox3.Text, dateTimePicker1.Value, (int)numericUpDown4.Value);
+                label1.Text = vedouci.ToString();
             }
             button1.Enabled = true;
         }

@@ -8,18 +8,19 @@ namespace OOP5
 {
     class Vedouci : Zamestnanec
     {
-        int priplatekaVedeni;
+        int priplatekZaVedeni;
         string titul;
 
-        public Vedouci(int priplatekaVedeni, string titul, string jmeno, string prijmeni, DateTime datumNastupu, int hodinovaMzda) : base(jmeno, prijmeni, datumNastupu, hodinovaMzda)
+        public Vedouci(int priplatekZaVedeni, string titul, string jmeno, string prijmeni, DateTime datumNastupu, int hodinovaMzda) : base(jmeno, prijmeni, datumNastupu, hodinovaMzda)
         {
-            this.priplatekaVedeni = priplatekaVedeni;
+            this.priplatekZaVedeni = priplatekZaVedeni;
             this.titul = titul;
+            base.jmeno = titul + " " + jmeno;
         }
         
         public override int VypoctiMzdu()
         {           
-            return HodinovaMzda * odpracHodiny + priplatekaVedeni;
+            return HodinovaMzda * odpracHodiny + priplatekZaVedeni;
         }
 
     }

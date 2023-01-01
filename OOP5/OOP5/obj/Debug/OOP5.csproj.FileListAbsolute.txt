@@ -8,3 +8,14 @@ G:\PRG\OOP5\OOP5\obj\Debug\OOP5.csproj.GenerateResource.cache
 G:\PRG\OOP5\OOP5\obj\Debug\OOP5.csproj.CoreCompileInputs.cache
 G:\PRG\OOP5\OOP5\obj\Debug\OOP5.exe
 G:\PRG\OOP5\OOP5\obj\Debug\OOP5.pdb
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\bin\Debug\OOP5.exe.config
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\bin\Debug\OOP5.exe
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\bin\Debug\OOP5.pdb
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.csproj.AssemblyReference.cache
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.csproj.SuggestedBindingRedirects.cache
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.Form1.resources
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.Properties.Resources.resources
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.csproj.GenerateResource.cache
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.csproj.CoreCompileInputs.cache
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.exe
+C:\Users\marsy\Source\Repos\OOP5-2.0\OOP5\OOP5\obj\Debug\OOP5.pdb

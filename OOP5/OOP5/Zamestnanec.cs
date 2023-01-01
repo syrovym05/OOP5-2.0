@@ -39,7 +39,7 @@ namespace OOP5
 
         public override string ToString()
         {
-            return String.Format("{0} {1} s hodinovou mzdou: {2} a odpracovanym pocet dnu: {3}\nCelkova mzda: {4}", jmeno, prijmeni, HodinovaMzda, PocetDni(), VypoctiMzdu());
+            return String.Format("{0} {1} \ns hodinovou mzdou: {2} \ns poctem dni od nastupu: {3}\n\nCelkova mzda: {4}", jmeno, prijmeni, HodinovaMzda, PocetDni(), VypoctiMzdu());
         }
 
 
